@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jake Repair Shop & Maintenance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="20260113_134536.png" alt="Logo">
+        <span>Jake Repair Shop</span>
+    </div>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="actions">
+        <button onclick="toggleDarkMode()">🌙</button>
+        <div class="menu" onclick="toggleMenu()">☰</div>
+    </div>
+</header>
+
+<!-- HERO WITH SLIDER -->
+<section id="home" class="hero">
+    <div class="slider">
+        <img src="picture1.png" class="slide active">
+        <img src="picture2.png" class="slide">
+        <img src="picture3.png" class="slide">
+    </div>
+
+    <div class="hero-text">
+        <h1>Jake Repair Shop & Maintenance</h1>
+        <p>LCD Replacement • Device Repair • Accessories</p>
+        <a href="#contact" class="btn">Get Service</a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <h3>📱 LCD Replacement</h3>
+        <p>High quality LCD replacement for phones and tablets.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>🔧 Repair & Maintenance</h3>
+        <p>Battery, charging port, and general device repair.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>🎧 Accessories</h3>
+        <p>Chargers, cases, earphones, cables, and screen protectors.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p>📞 <strong>Phone:</strong>
+        <a href="tel:09123456789">0912 345 6789</a>
+    </p>
+
+    <p>📘 <strong>Facebook:</strong>
+        <a href="https://www.facebook.com/share/1C7HnHEXYu/?mibextid=wwXIfr" target="_blank">
+            facebook.com/JakeRepairShop
+        </a>
+    </p>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="text" placeholder="Device / Concern" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Jake Repair Shop & Maintenance
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
